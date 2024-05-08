@@ -1,0 +1,275 @@
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.937);
+}
+
+header{
+    
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 0 20px 2px #45f3ff;
+    
+
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    background-image: url('img/ai-generated-8705154_1920.png');
+    background-size: cover;
+    display: inline-block;
+}
+
+ul a{
+    margin-left: 1rem;
+    transition: 1s;
+    color: #fff;
+
+}
+
+ul a:hover{
+    font-size: 1.5rem;
+    color: #00e77f;
+}
+
+
+
+nav{
+    display: flex;
+      
+}
+
+nav ul{
+  
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}
+nav div img{
+    width: 50px;
+    
+}
+
+/* encabezado */
+/* hasta aqui esta perfecto.. no tocar.  */
+
+
+
+
+
+
+
+
+.encabezado2{
+    
+    
+    
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+
+   
+    
+
+}
+/*h1 entre el header y la img*/
+/* hasta aqui esta perfecto.. no tocar.  */
+
+
+
+
+.encabezado2 img{
+    
+  
+    width: 100%;
+    mask-image: linear-gradient(black 80%, transparent);
+
+    
+
+    
+}
+
+
+/* hasta aqui esta perfecto.. no tocar.  */
+
+
+
+
+
+
+
+
+.container{
+    display: flex; /* organiza todo de forma flexible en fila
+    
+    */
+    flex-direction: row; /*organizamos todo en filas*/
+   
+    gap: 100px;
+
+    flex-wrap: wrap;
+
+    /*elementos necesarios para centrar 3 filas y 3 columnas junto con la caja de abajo*/
+    
+    margin: 30px;
+    padding: 30px;
+
+
+
+}
+
+button{
+   background-color: lightblue;
+   color: black;
+   font-weight: 600;
+   padding: 8px 0;
+   transition: all;
+   transition-duration: 300ms;
+   border-bottom: 1px solid rgba;
+
+}
+
+button:hover{
+    
+    color: orangered;
+  border-bottom: 1px solid black;
+}
+.caja{
+
+    width: 300px;
+    height: auto;
+    
+    padding: 10px;
+    
+    /*elementos necesarios para centrar 3 filas y 3 columnas junto con el container de arriba*/
+
+    text-align: center;
+}
+
+
+
+
+
+
+
+.final{
+    width: 100%;
+    height: 500px;
+    
+    
+    
+    background: url(img/banner-contacto.jpg);
+  
+
+
+
+ 
+  
+ 
+
+    mask-image: linear-gradient(black 80%, transparent);
+
+
+}
+
+.final{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    align-items: center;
+     
+ 
+    
+}
+
+
+
+.container2{
+   
+    display: flex; /* organiza todo de forma flexible en fila
+    
+    */
+    flex-direction: row; /*organizamos todo en filas*/
+   
+    gap: 100px;
+
+    flex-wrap: wrap;
+
+    /*elementos necesarios para centrar 3 filas y 3 columnas junto con la caja de abajo*/
+    
+    margin: 30px;
+    padding: 30px;
+
+    
+
+}
+
+.caja{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    background-color: lightblue;
+    transition: transform 0.5s;
+    
+
+}
+
+footer{
+    justify-content: space-between;
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+}
+
+
+
+
+
+.link{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    justify-content: space-around;
+    margin: 10px;
+   
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*boton avanzar y retroceder de la paginacion*/
+
+.navegacion {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+
