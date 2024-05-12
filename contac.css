@@ -1,10 +1,9 @@
+
 * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
-
-
 
 
 body{
@@ -16,8 +15,7 @@ header{
     width: 100%;
     height: 5rem;
     position: fixed;
-    left: 0;
-    right: 0;
+   
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -82,13 +80,11 @@ nav div img{
     text-align: center;
     padding-top: 100px;
     color: white;
-  
 
    
     
 
 }
-
 
 h1{
     padding:35px;
@@ -97,10 +93,12 @@ h1{
 /* hasta aqui esta perfecto.. no tocar.  */
 
 
+
+
 .encabezado2 img{
     
   
-    width: 100%;
+    width:100%;
     mask-image: linear-gradient(black 80%, transparent);
 
     
@@ -119,25 +117,42 @@ h1{
 
 
 .container{
-    display: flex; /* organiza todo de forma flexible 
     
-    */
-    flex-direction: row; /*organizamos todo en filas*/
+    
    
-    gap: 100px; /*separaion de las cajas*/
+   
+   
 
-    flex-wrap: wrap;
-
-    /*elementos necesarios para centrar 3 filas y 3 columnas junto con la caja de abajo*/
     
-    margin: 90px;
+
+    
+    margin: 60px;
     padding: 30px;
-
-   
+    
 
 
 
 }
+
+
+
+.caja{
+    width:auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.544);
+    background-color:transparent;
+    transition: transform 0.5s;  
+    box-shadow: 0 0 20px 2px #45f3ff
+    }
+
+.caja:hover{
+    transform: scale(1.1);
+   
+    
+}
+
 
 button{
     background-color: lightblue;
@@ -146,7 +161,6 @@ button{
     padding: 8px 0;
     transition: all;
     transition-duration: 300ms;
-    /*hace que cambie de color con mas suavidad*/
    
     border-radius: 10px;
     margin-top: 10px;
@@ -160,63 +174,17 @@ button{
     box-shadow: 0 0 20px 2px #45f3ff
  
  }
-
-button:hover{
-    
-    color: orangered;
-
-}
-
-
-
-
-
-
-
-.final{
-    width: 100%;
-    height: 500px;
-    
-    
-    
-    background: url(img/banner-contacto.jpg);
-  
-
-
-
  
-  
- 
-
-    mask-image: linear-gradient(black 80%, transparent);
-
-
-}
-
-.final{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    
-    align-items: center;
+ button:hover{
      
- 
-    
-}
+     color: orangered;
+  
+ }
 
 
-
-
-.caja{
-    width: 300px;
-    height: 400px;
-    padding: 10px;
-    text-align: center;
-    background-color: lightblue;
-    transition: transform 0.5s;
     
 
-}
+
 
 footer{
     justify-content: space-between;
@@ -239,17 +207,6 @@ footer{
     justify-content: space-around;
     margin: 10px;
    
-
-}
-
-
-/*boton avanzar y retroceder de la paginacion*/
-
-.navegacion {
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 10px;
-    text-align: center;
 
 }
 
