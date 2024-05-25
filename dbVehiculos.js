@@ -9,7 +9,7 @@
 
 const dbVehiculos = [
     {
-        id: 1,
+        
         marca:"audi",
         modelo:"a4",
         automovil:"si",
@@ -24,7 +24,7 @@ const dbVehiculos = [
 
     },
     {
-        id: 2,
+        
         marca:"audi",
         modelo:"a4",
         automovil:"si",
@@ -37,7 +37,7 @@ const dbVehiculos = [
         precio:280000,
     },
     {
-        id: 3,
+        
         marca:"audi",
         modelo:"a4",
         automovil:"si",
@@ -50,7 +50,7 @@ const dbVehiculos = [
         precio:280000,
     },
     {
-        id: 4,
+        
         marca:"audi",
         modelo:"a4",
         automovil:"si",
@@ -63,7 +63,7 @@ const dbVehiculos = [
         precio:280000,
     },
     {
-        id: 5,
+        
         marca:"audi",
         modelo:"a4",
         automovil:"si",
@@ -76,7 +76,7 @@ const dbVehiculos = [
         precio:280000,
     },
     {
-        id: 6,
+        
         marca:"toyota",
         modelo:"yaris",
         automovil:"si",
@@ -90,7 +90,7 @@ const dbVehiculos = [
 
     },
     {
-        id: 7,
+        
         marca:"toyota",
         modelo:"corolla",
         automovil:"si",
@@ -104,7 +104,7 @@ const dbVehiculos = [
 
     },
     {
-        id: 8,
+        
         marca:"toyota",
         modelo:"a4",
         automovil:"si",
@@ -117,7 +117,7 @@ const dbVehiculos = [
         precio:500000,
     },
     {
-        id: 9,
+        
         marca:"toyota",
         modelo:"a4",
         automovil:"si",
@@ -130,7 +130,7 @@ const dbVehiculos = [
         precio:500000,
     },
     {
-        id: 10,
+        
         marca:"toyota",
         modelo:"a4",
         automovil:"si",
@@ -143,7 +143,7 @@ const dbVehiculos = [
         precio:500000,
     },
     {
-        id: 11,
+        
         marca:"toyota",
         modelo:"a4",
         automovil:"si",
@@ -156,7 +156,7 @@ const dbVehiculos = [
         precio:500000,
     },
     {
-        id: 12,
+        
         marca:"chevrolet",
         modelo:"onix",
         automovil:"si",
@@ -171,7 +171,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 13,
+        
         marca:"chevrolet",
         modelo:"onix",
         automovil:"si",
@@ -184,7 +184,7 @@ const dbVehiculos = [
         precio:280000,
     },
     {
-        id: 14,
+        
         marca:"chevrolet",
         modelo:"onix",
         automovil:"si",
@@ -198,7 +198,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 15,
+        
         marca:"chevrolet",
         modelo:"onix",
         automovil:"si",
@@ -211,7 +211,7 @@ const dbVehiculos = [
         precio:280000,
     },
     {
-        id: 16,
+        
         marca:"chevrolet",
         modelo:"onix",
         automovil:"si",
@@ -224,7 +224,7 @@ const dbVehiculos = [
         precio:280000,
     },
     {
-        id: 17,
+        
         marca:"renault",
         modelo:"duster",
         automovil:"no",
@@ -239,7 +239,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 18,
+        
         marca:"renault",
         modelo:"duster",
         automovil:"no",
@@ -254,7 +254,7 @@ const dbVehiculos = [
 
     },
     {
-        id: 19,
+        
         marca:"renault",
         modelo:"duster",
         automovil:"no",
@@ -269,7 +269,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 20,
+        
         marca:"renault",
         modelo:"duster",
         automovil:"no",
@@ -283,7 +283,7 @@ const dbVehiculos = [
         precio:400000,
     },
     {
-        id: 21,
+        
         marca:"renault",
         modelo:"duster",
         automovil:"no",
@@ -297,7 +297,7 @@ const dbVehiculos = [
         precio:400000,
     },
     {
-        id: 22,
+        
         marca:"renault",
         modelo:"kwid",
         color:"rojo",
@@ -311,7 +311,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 23,
+        
         marca:"renault",
         modelo:"kwid",
         color:"blanco",
@@ -326,7 +326,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 24,
+        
         marca:"renault",
         modelo:"kwid",
         color:"negro",
@@ -339,7 +339,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 25,
+        
         marca:"renault",
         modelo:"kwid",
         color:"gris",
@@ -353,7 +353,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 26,
+        
         marca:"renault",
         modelo:"kwid",
         color:"azul",
@@ -366,7 +366,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 27,
+        
         marca:"toyota",
         modelo:"hilux",
         automovil:"no",
@@ -381,7 +381,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 28,
+        
         marca:"toyota",
         modelo:"hilux",
         automovil:"no",
@@ -397,7 +397,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 29,
+        
         marca:"toyota",
         modelo:"hilux",
         automovil:"no",
@@ -412,7 +412,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 30,
+        
         marca:"toyota",
         modelo:"hilux",
         automovil:"no",
@@ -427,7 +427,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 31,
+        
         marca:"toyota",
         modelo:"hilux",
         automovil:"no",
@@ -442,7 +442,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 32,
+        
         marca:"toyota",
         modelo:"prado",
         automovil:"no",
@@ -459,7 +459,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 33,
+        
         marca:"toyota",
         modelo:"prado",
         automovil:"no",
@@ -474,7 +474,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 34,
+        
         marca:"toyota",
         modelo:"prado",
         automovil:"no",
@@ -489,7 +489,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 35,
+        
         marca:"toyota",
         modelo:"prado",
         automovil:"no",
@@ -504,7 +504,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 36,
+        
         marca:"toyota",
         modelo:"prado",
         automovil:"no",
@@ -519,7 +519,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 37,
+        
         marca:"mazda",
         modelo:"3",
         automovil:"si",
@@ -535,7 +535,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 38,
+        
         marca:"mazda",
         modelo:"3",
         automovil:"si",
@@ -550,7 +550,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 39,
+        
         marca:"mazda",
         modelo:"3",
         automovil:"si",
@@ -565,7 +565,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 40,
+        
         marca:"mazda",
         modelo:"3",
         automovil:"si",
@@ -580,7 +580,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 41,
+        
         marca:"mazda",
         modelo:"3",
         automovil:"si",
@@ -595,7 +595,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 42,
+        
         marca:"mazda",
         modelo:"3",
         automovil:"si",
@@ -610,7 +610,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 43,
+        
         marca:"ford",
         modelo:"mustang",
         automovil:"si",
@@ -626,7 +626,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 44,
+        
         marca:"ford",
         modelo:"mustang",
         automovil:"si",
@@ -641,7 +641,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 45,
+        
         marca:"ford",
         modelo:"mustang",
         automovil:"si",
@@ -656,7 +656,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 46,
+        
         marca:"ford",
         modelo:"mustang",
         automovil:"si",
@@ -671,7 +671,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 47,
+    
         marca:"ford",
         modelo:"mustang",
         automovil:"si",
@@ -686,7 +686,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 48,
+        
         marca:"ford",
         modelo:"fiesta",
         automovil:"si",
@@ -701,7 +701,7 @@ const dbVehiculos = [
     },
     {
         
-        id: 49,
+        
         marca:"ford",
         modelo:"fiesta",
         automovil:"si",
@@ -716,29 +716,109 @@ const dbVehiculos = [
     },
     {
         
-        id: 50,
+        
         marca:"ford",
         modelo:"fiesta",
         automovil:"si",
         camioneta:"no",
-        color:"blanco",
+        color:"gris",
         cilindraje:"1.6",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/ford-fiesta.png",
+        img:"img/ford-fiesta-gris.jpg",
         precio:300000,
     }
-]
-
-/*base de datos con 50 vehiculos*/
+];
 
 
-for(let i=0;i<dbVehiculos.length;i++){
-    if(dbVehiculos[i].automovil=="si"){
-        console.log(dbVehiculos[i]);
-    }/*
-    if(dbVehiculos[i].camioneta=="si"){
-        console.log(dbVehiculos[i]);
-    }*/
+
+
+
+
+
+
+
+
+function guardar(){
+
+    function vehiculo(marca,modelo,automovil,camioneta,color,cilindraje,aireAcondicionado,gps,airbag,img,precio){
+        this.marca=marca;
+        this.modelo=modelo;
+        this.automovil=automovil;
+        this.camioneta=camioneta;
+        this.color=color;
+        this.cilindraje=cilindraje;
+        this.aireAcondicionado=aireAcondicionado;
+        this.gps=gps;
+        this.airbag=airbag;
+        this.img=img;
+        this.precio=precio;
+    }
+    
+
+    
+    let marcaGuardar = document.getElementById("marca").value;
+    let modeloGuardar = document.getElementById("modelo").value;
+    let automovilGuardar = document.getElementById("automovil").value;
+    let camionetaGuardar = document.getElementById("camioneta").value;
+    let colorGuardar = document.getElementById("color").value;
+    let cilindrajeGuardar = document.getElementById("cilindraje").value;
+    let aireAcondicionadoGuardar = document.getElementById("aireAcondicionado").value;
+    let gpsGuardar = document.getElementById("gps").value;
+    let airbagGuardar = document.getElementById("airbag").value;
+    let imgGuardar = document.getElementById("foto").value;
+    let precioGuardar = document.getElementById("precio").value;
+
+    if(nombre=="" || apellido=="" || telefono=="" ||email=="" || ciudad==""){
+
+
+    alert("todos los campos son obligatorios");
+
+    }else{
+
+        nuevoVehiculo = new vehiculo(marcaGuardar,modeloGuardar,automovilGuardar,camionetaGuardar,colorGuardar,cilindrajeGuardar,aireAcondicionadoGuardar,gpsGuardar,airbagGuardar,imgGuardar,precioGuardar)
+
+        console.log(nuevoVehiculo);
+
+        var dbVehiculos = [];
+        function agregar(){
+            dbVehiculos.push(nuevoVehiculo);
+            console.log(dbVehiculos);
+
+
+        }
+        alert("vehiculo guardado !")
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    let vehiculoDiv = document.getElementById("vehiculo");
+    vehiculoDiv.innerHTML = `
+        <h2>Vehículo Guardado</h2>
+        <p>Marca: ${marca}</p>
+        <p>Modelo: ${modelo}</p>
+        <p>Automóvil: ${automovil}</p>
+        <p>Camioneta: ${camioneta}</p>
+        <p>Color: ${color}</p>
+        <p>Cilindraje: ${cilindraje}</p>
+        <p>Aire Acondicionado: ${aireAcondicionado}</p>
+        <p>GPS: ${gps}</p>
+        <p>Airbag: ${airbag}</p>
+        <p>Imagen: ${img}</p>
+        <p>Precio: ${precio}</p>
+    `;
+
+    alert("vehículo guardado");
+
 }

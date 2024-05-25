@@ -133,7 +133,45 @@ h1{
     margin: 90px;
     padding: 30px;
 
+    
+
    
+
+
+
+}
+
+.caja{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    
+
+    border-radius: 10px;
+    transition: transform 0.5s;
+   
+   
+
+    
+    
+
+}
+.caja:hover{
+    box-shadow: 0 10px 20px rgb(238, 12, 12);
+    transform: scale(1.1);
+  
+}
+
+.caja li{
+   
+    font-size: 15px;
+    padding: 3px;
+    
+    color: rgba(0, 0, 0, 0.438);
+    
+
 
 
 
@@ -166,6 +204,8 @@ button:hover{
     color: orangered;
 
 }
+
+
 
 
 
@@ -207,16 +247,7 @@ button:hover{
 
 
 
-.caja{
-    width: 300px;
-    height: 400px;
-    padding: 10px;
-    text-align: center;
-    background-color: lightblue;
-    transition: transform 0.5s;
-    
 
-}
 
 footer{
     justify-content: space-between;

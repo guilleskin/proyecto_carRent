@@ -20,7 +20,7 @@
                 <a href="index.html"><div class="logo"></div></a>
                 
                 <ul>
-                    <a href="vehiculos.html">CATEG0RIA DE VEHICULOS</a>
+                    <a href="vehiculos.html">CATEGORIA DE VEHICULOS</a>
                     <a href="contac.html">CONTACTANOS</a>
                     <a href="login.html">LOGIN</a>
                    
@@ -46,39 +46,43 @@
 
 
 <section body>
-    <div class="container">
-        
+
+    <form id="productForm" class="card">
+      
 
 
-        <div class="caja">
-            <label class="marca"> Marca vehiculo <input type="text" id="marca"></label>
-            <label class="modelo"> Ingrese el modelo <input type="text" id="modelo"></label>
-            <label class="automovil"> Es un automovil ? <input type="text" id="automovil"></label>
-            <label class="color"> Ingrese el color<input type="text" id="color"></label>
-            <label class="cilindraje"> Ingrese el cilindraje <input type="text" id="cilindraje"></label>
-            <label class="aireAcondicionado"> Aire Acondicionado ? <input
-            type="text" id="aireAcondicionado"></label>
-            <label class="gps"> tiene gps ? <input type="text" id="gps"></label>
-            <label class="airbag"> tiene airbag ? <input type="text" id="airbag"></label>
-           
-            <h1> Subir Foto </h1>
-            <input type="file" id="foto">
-            <button onclick="subirFoto()"> Subir foto </button>
-            <button onclick="guardar()"> !guardar! </button>
-
-
-
+            <div class="caja">
+                <label class="marca"> Marca vehiculo <input type="text" id="marca"></label>
+                <label class="modelo"> Ingrese el modelo <input type="text" id="modelo"></label>
+                <label class="automovil"> Es un automovil ? <input type="text" id="automovil"></label>
+                <label class="camioneta"> Es una camioneta ? <input type="text" id="camioneta"></label>
+                <label class="color"> Ingrese el color<input type="text" id="color"></label>
+                <label class="cilindraje"> Ingrese el cilindraje <input type="text" id="cilindraje" min="1.0" max="10.0"></label>
+                <label class="aireAcondicionado"> Aire Acondicionado ? <input
+                type="text" id="aireAcondicionado"></label>
+                <label class="gps"> tiene gps ? <input type="text" id="gps"></label>
+                <label class="airbag"> tiene airbag ? <input type="text" id="airbag"></label>
+                <label class="precio"> cual es su precio ? <input type="text" id="precio"></label>
+            
+                <h1> Subir Foto </h1>
+                <input type="file" id="foto">
+                <button onclick="subirFoto()"> Subir foto </button>
+                <button onclick="guardar()"> !guardar! </button>
 
    
-
-    
-       
-
-        </div>
         
-          
+
+            </div>
+
+        </form>
+
+
+
+            
+            
 
 </section>
+    <div id="vehiculo"></div>
 
 
 <footer>
@@ -101,7 +105,9 @@
     </div>
 </footer>
 
-    <script src="index.js"></script>
+    <script src="dbVehiculos.js"></script>
+   
+
     
 </body>
 
