@@ -23,10 +23,8 @@ function concactar(){
     let emailContactar = document.getElementById("email").value;
     let ciudadContactar = document.getElementById("ciudad").value;
 
-    if(nombre=="" || apellido=="" || telefono=="" ||email=="" || ciudad==""){
-
-
-    alert("todos los campos son obligatorios");
+    if(nombreContactar=="" || apellidoContactar=="" || telefonoContactar=="" ||emailContactar=="" || ciudadContactar==""){
+        alert("todos los campos son obligatorios");
 
     }else{
 
@@ -39,10 +37,12 @@ function concactar(){
             dbContactos.push(nuevoSujeto);
             console.log(dbContactos);
 
+            alert("contacto guardado, uno de nuestros agentes lo contactara.")
+
+
 
         }
-        alert("contacto guardado, uno de nuestros agentes lo contactara.")
-
+       
     }
 
 }

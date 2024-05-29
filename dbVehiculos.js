@@ -13,13 +13,14 @@ const dbVehiculos = [
         marca:"audi",
         modelo:"a4",
         automovil:"si",
+        camioneta:"no",
         color:"rojo",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/audi-a4.png",
-        precio:280000,
+        precio:300000,
 
 
     },
@@ -28,145 +29,142 @@ const dbVehiculos = [
         marca:"audi",
         modelo:"a4",
         automovil:"si",
+        camioneta:"no",
         color:"blanco",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/audi-a4.png",
-        precio:280000,
+        precio:300000,
     },
     {
         
         marca:"audi",
         modelo:"a4",
         automovil:"si",
+        camioneta:"no",
         color:"negro",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/audi-a4.png",
-        precio:280000,
+        precio:300000,
     },
     {
         
         marca:"audi",
         modelo:"a4",
         automovil:"si",
+        camioneta:"no",
         color:"gris",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/audi-a4.png",
-        precio:280000,
+        precio:300000,
     },
     {
         
         marca:"audi",
         modelo:"a4",
         automovil:"si",
+        camioneta:"no",
         color:"azul",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/audi-a4.png",
-        precio:280000,
+        precio:300000,
     },
+   
     {
         
         marca:"toyota",
         modelo:"yaris",
         automovil:"si",
-        color:"rojo",
-        cilindraje:"2.0",
-        aireAcondicionado:"si",
-        gps:"si",
-        airbag:"si",
-        img:"img/toyota-yaris.png",
-        precio:350000,
-
-    },
-    {
-        
-        marca:"toyota",
-        modelo:"corolla",
-        automovil:"si",
+        camioneta:"no",
         color:"rojo",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/toyota-corolla.png",
-        precio:280000,
+        precio:300000,
 
     },
     {
         
         marca:"toyota",
-        modelo:"a4",
+        modelo:"yaris",
         automovil:"si",
+        camioneta:"no",
         color:"blanco",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/toyota-a4.png",
-        precio:500000,
+        precio:300000,
     },
     {
         
         marca:"toyota",
-        modelo:"a4",
+        modelo:"yaris",
         automovil:"si",
+        camioneta:"no",
         color:"negro",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/toyota-a4.png",
-        precio:500000,
+        precio:300000,
     },
     {
         
         marca:"toyota",
-        modelo:"a4",
+        modelo:"yaris",
         automovil:"si",
+        camioneta:"no",
         color:"gris",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/toyota-a4.png",
-        precio:500000,
+        precio:300000,
     },
     {
         
         marca:"toyota",
-        modelo:"a4",
+        modelo:"yaris",
         automovil:"si",
+        camioneta:"no",
         color:"azul",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/toyota-a4.png",
-        precio:500000,
+        precio:300000,
     },
     {
         
         marca:"chevrolet",
         modelo:"onix",
         automovil:"si",
+        camioneta:"no",
         color:"rojo",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/chevrolet-onix.png",
-        precio:280000,
+        precio:300000,
 
     },
     {
@@ -175,26 +173,28 @@ const dbVehiculos = [
         marca:"chevrolet",
         modelo:"onix",
         automovil:"si",
+        camioneta:"no",
         color:"blanco",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/chevrolet-onix.png",
-        precio:280000,
+        precio:300000,
     },
     {
         
         marca:"chevrolet",
         modelo:"onix",
         automovil:"si",
+        camioneta:"no",
         color:"negro",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/chevrolet-onix.png",
-        precio:280000,
+        precio:300000,
     },
     {
         
@@ -202,26 +202,28 @@ const dbVehiculos = [
         marca:"chevrolet",
         modelo:"onix",
         automovil:"si",
+        camioneta:"no",
         color:"gris",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/chevrolet-onix.png",
-        precio:280000,
+        precio:300000,
     },
     {
         
         marca:"chevrolet",
         modelo:"onix",
         automovil:"si",
+        camioneta:"no",
         color:"azul",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/chevrolet-onix.png",
-        precio:280000,
+        precio:300000,
     },
     {
         
@@ -300,13 +302,15 @@ const dbVehiculos = [
         
         marca:"renault",
         modelo:"kwid",
+        automovil:"si",
+        camioneta:"no",
         color:"rojo",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/renault-kwid.png",
-        precio:280000,
+        precio:300000,
 
     },
     {
@@ -314,13 +318,15 @@ const dbVehiculos = [
         
         marca:"renault",
         modelo:"kwid",
+        automovil:"si",
+        camioneta:"no",
         color:"blanco",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/renault-kwid.png",
-        precio:280000,
+        precio:300000,
 
 
     },
@@ -329,26 +335,30 @@ const dbVehiculos = [
         
         marca:"renault",
         modelo:"kwid",
+        automovil:"si",
+        camioneta:"no",
         color:"negro",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/renault-kwid.png",
-        precio:280000,
+        precio:300000,
     },
     {
         
         
         marca:"renault",
         modelo:"kwid",
+        automovil:"si",
+        camioneta:"no",
         color:"gris",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/renault-kwid.png",
-        precio:280000,
+        precio:300000,
 
     },
     {
@@ -356,13 +366,15 @@ const dbVehiculos = [
         
         marca:"renault",
         modelo:"kwid",
+        automovil:"si",
+        camioneta:"no",
         color:"azul",
         cilindraje:"2.0",
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
         img:"img/renault-kwid.png",
-        precio:280000,
+        precio:300000,
     },
     {
         
@@ -533,21 +545,7 @@ const dbVehiculos = [
         precio:300000,
 
     },
-    {
-        
-        
-        marca:"mazda",
-        modelo:"3",
-        automovil:"si",
-        camioneta:"no",
-        color:"blanco",
-        cilindraje:"2.0",
-        aireAcondicionado:"si",
-        gps:"si",
-        airbag:"si",
-        img:"img/mazda-3.png",
-        precio:300000,
-    },
+   
     {
         
         
@@ -728,6 +726,36 @@ const dbVehiculos = [
         airbag:"si",
         img:"img/ford-fiesta-gris.jpg",
         precio:300000,
+    },
+    {
+        
+        
+        marca:"ford",
+        modelo:"fiesta",
+        automovil:"si",
+        camioneta:"no",
+        color:"blanco",
+        cilindraje:"1.6",
+        aireAcondicionado:"si",
+        gps:"si",
+        airbag:"si",
+        img:"img/ford-fiesta-gris.jpg",
+        precio:300000,
+    },
+    {
+        
+        
+        marca:"ford",
+        modelo:"fiesta",
+        automovil:"si",
+        camioneta:"no",
+        color:"negro",
+        cilindraje:"1.6",
+        aireAcondicionado:"si",
+        gps:"si",
+        airbag:"si",
+        img:"img/ford-fiesta-gris.jpg",
+        precio:300000,
     }
 ];
 
@@ -737,7 +765,7 @@ const dbVehiculos = [
 
 
 
-
+/* para guardar los datos del login (ingresar vehiculo) */
 
 
 function guardar(){
@@ -770,7 +798,7 @@ function guardar(){
     let imgGuardar = document.getElementById("foto").value;
     let precioGuardar = document.getElementById("precio").value;
 
-    if(nombre=="" || apellido=="" || telefono=="" ||email=="" || ciudad==""){
+    if(marcaGuardar=="" || modeloGuardar=="" || automovilGuardar=="" ||camionetaGuardar=="" || colorGuardar=="" || cilindrajeGuardar=="" || aireAcondicionadoGuardar=="" || gpsGuardar=="" || airbagGuardar=="" || imgGuardar=="" || precioGuardar==""){
 
 
     alert("todos los campos son obligatorios");
@@ -785,10 +813,12 @@ function guardar(){
         function agregar(){
             dbVehiculos.push(nuevoVehiculo);
             console.log(dbVehiculos);
+            alert("vehiculo guardado !")
 
-
+            windows.location.href="vehiculosPg1.html";
+        
         }
-        alert("vehiculo guardado !")
+        
 
     }
 
@@ -799,26 +829,6 @@ function guardar(){
 
 
 
-
-
-
-
-    let vehiculoDiv = document.getElementById("vehiculo");
-    vehiculoDiv.innerHTML = `
-        <h2>Vehículo Guardado</h2>
-        <p>Marca: ${marca}</p>
-        <p>Modelo: ${modelo}</p>
-        <p>Automóvil: ${automovil}</p>
-        <p>Camioneta: ${camioneta}</p>
-        <p>Color: ${color}</p>
-        <p>Cilindraje: ${cilindraje}</p>
-        <p>Aire Acondicionado: ${aireAcondicionado}</p>
-        <p>GPS: ${gps}</p>
-        <p>Airbag: ${airbag}</p>
-        <p>Imagen: ${img}</p>
-        <p>Precio: ${precio}</p>
-    `;
-
-    alert("vehículo guardado");
+    
 
 }

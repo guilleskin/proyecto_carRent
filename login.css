@@ -134,7 +134,7 @@ nav div img{
 
 
 
-.caja{
+.card-box{
     width:auto;
     height: auto;
     padding: 10px;
@@ -145,7 +145,7 @@ nav div img{
     box-shadow: 0 0 20px 2px #45f3ff
     }
 
-.caja:hover{
+.card-box:hover{
     transform: scale(1.1);
     
 }
@@ -179,11 +179,12 @@ button{
  }
 
 
-    
 
 
 
-footer{
+
+
+.footer{
     justify-content: space-between;
     background-color: gray;
     text-align: center;
@@ -195,17 +196,6 @@ footer{
 
 
 
-.link{
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 700;
-    justify-content: space-around;
-    margin: 10px;
-   
-
-}
 
 
 
