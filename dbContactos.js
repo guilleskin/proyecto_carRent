@@ -34,8 +34,10 @@ function concactar(){
 
         var dbContactos = [];
         function agregar(){
+        
             dbContactos.push(nuevoSujeto);
             console.log(dbContactos);
+            
 
             alert("contacto guardado, uno de nuestros agentes lo contactara.")
 

@@ -19,7 +19,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/audi-a4.png",
+        img:"img/audi-a4-rojo.jpg",
         precio:300000,
 
 
@@ -35,7 +35,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/audi-a4.png",
+        img:"img/audi-a4-blanco.jpg",
         precio:300000,
     },
     {
@@ -49,7 +49,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/audi-a4.png",
+        img:"img/audi-a4-negro.jpg",
         precio:300000,
     },
     {
@@ -63,7 +63,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/audi-a4.png",
+        img:"img/audi-a4-gris.jpg",
         precio:300000,
     },
     {
@@ -77,7 +77,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/audi-a4.png",
+        img:"img/audi-a4-azul.jpg",
         precio:300000,
     },
    
@@ -92,7 +92,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/toyota-corolla.png",
+        img:"img/toyota-yaris-rojo.jpg",
         precio:300000,
 
     },
@@ -107,7 +107,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/toyota-a4.png",
+        img:"img/toyota-yaris-blanco.jpg",
         precio:300000,
     },
     {
@@ -121,7 +121,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/toyota-a4.png",
+        img:"img/toyota-yaris-negro.jpg",
         precio:300000,
     },
     {
@@ -135,7 +135,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/toyota-a4.png",
+        img:"img/toyota-yaris-gris.jpg",
         precio:300000,
     },
     {
@@ -149,7 +149,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/toyota-a4.png",
+        img:"img/toyota-yaris-azul.jpg",
         precio:300000,
     },
     {
@@ -163,7 +163,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/chevrolet-onix.png",
+        img:"img/chevrolet-onix-rojo.jpg",
         precio:300000,
 
     },
@@ -179,7 +179,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/chevrolet-onix.png",
+        img:"img/chevrolet-onix-blanco.jpg",
         precio:300000,
     },
     {
@@ -193,7 +193,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/chevrolet-onix.png",
+        img:"img/chevrolet-onix-negro.jpg",
         precio:300000,
     },
     {
@@ -208,7 +208,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/chevrolet-onix.png",
+        img:"img/chevrolet-onix-gris.jpg",
         precio:300000,
     },
     {
@@ -222,7 +222,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/chevrolet-onix.png",
+        img:"img/chevrolet-onix-azul.jpg",
         precio:300000,
     },
     {
@@ -236,7 +236,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/renault-duster.png",
+        img:"img/renault-duster-rojo.jpg",
         precio:400000,
     },
     {
@@ -251,7 +251,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/renault-duster.png",
+        img:"img/renault-duster-blanco.jpg",
         precio:400000,
 
     },
@@ -266,7 +266,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/renault-duster.png",
+        img:"img/renault-duster-negro.jpg",
         precio:400000,
     },
     {
@@ -281,7 +281,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/renault-duster.png",
+        img:"img/renault-duster-gris.jpg",
         precio:400000,
     },
     {
@@ -295,7 +295,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/renault-duster.png",
+        img:"img/renault-duster-azul.jpg",
         precio:400000,
     },
     {
@@ -309,7 +309,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/renault-kwid.png",
+        img:"img/renault-kwid-rojo.jpg",
         precio:300000,
 
     },
@@ -325,7 +325,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/renault-kwid.png",
+        img:"img/renault-kwid-blanco.jpg",
         precio:300000,
 
 
@@ -342,7 +342,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/renault-kwid.png",
+        img:"img/renault-kwid-negro.jpg",
         precio:300000,
     },
     {
@@ -357,7 +357,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/renault-kwid.png",
+        img:"img/renault-kwid-gris.jpg",
         precio:300000,
 
     },
@@ -373,7 +373,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/renault-kwid.png",
+        img:"img/renault-kwid-azul.jpg",
         precio:300000,
     },
     {
@@ -388,7 +388,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/toyota-hilux.png",
+        img:"img/toyota-hilux-rojo.jpg",
         precio:400000,
     },
     {
@@ -403,7 +403,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/toyota-hilux.png",
+        img:"img/toyota-hilux-blanco.jpg",
         precio:400000,
 
     },
@@ -419,7 +419,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/toyota-hilux.png",
+        img:"img/toyota-hilux-negro.jpg",
         precio:400000,
     },
     {
@@ -434,7 +434,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/toyota-hilux.png",
+        img:"img/toyota-hilux-gris.jpg",
         precio:400000,
     },
     {
@@ -449,7 +449,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/toyota-hilux.png",
+        img:"img/toyota-hilux-azul.jpg",
         precio:400000,
     },
     {
@@ -464,7 +464,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/toyota-prado.png",
+        img:"img/toyota-prado-rojo.jpg",
         precio:500000,
 
 
@@ -481,7 +481,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/toyota-prado.png",
+        img:"img/toyota-prado-blanco.jpg",
         precio:500000,
     },
     {
@@ -496,7 +496,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/toyota-prado.png",
+        img:"img/toyota-prado-negro.jpg",
         precio:500000,
     },
     {
@@ -511,7 +511,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/toyota-prado.png",
+        img:"img/toyota-prado-gris.jpg",
         precio:500000,
     },
     {
@@ -526,7 +526,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/toyota-prado.png",
+        img:"img/toyota-prado-azul.jpg",
         precio:500000,
     },
     {
@@ -541,7 +541,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/mazda-3.png",
+        img:"img/mazda3-rojo.jpg",
         precio:300000,
 
     },
@@ -558,7 +558,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/mazda-3.png",
+        img:"img/mazda3-negro.jpg",
         precio:300000,
     },
     {
@@ -573,7 +573,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/mazda-3.png",
+        img:"img/mazda3-gris.jpg",
         precio:300000,
     },
     {
@@ -588,7 +588,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/mazda-3.png",
+        img:"img/mazda3-azul.jpg",
         precio:300000,
     },
     {
@@ -603,7 +603,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/mazda-3.png",
+        img:"img/mazda3-blanco.jpg",
         precio:300000,
     },
     {
@@ -618,7 +618,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/ford-mustang.png",
+        img:"img/ford-mustang-rojo.jpg",
         precio:500000,
 
     },
@@ -634,7 +634,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/ford-mustang.png",
+        img:"img/ford-mustang-gris.jpg",
         precio:500000,
     },
     {
@@ -649,7 +649,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/ford-mustang.png",
+        img:"img/ford-mustang-azul.jpg",
         precio:500000,
     },
     {
@@ -664,7 +664,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/ford-mustang.png",
+        img:"img/ford-mustang-blanco.jpg",
         precio:500000,
     },
     {
@@ -679,7 +679,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/ford-mustang.png",
+        img:"img/ford-mustang-negro.jpg",
         precio:500000,
     },
     {
@@ -694,7 +694,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/ford-fiesta.png",
+        img:"img/ford-fiesta-rojo.jpg",
         precio:300000,
     },
     {
@@ -709,7 +709,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/ford-fiesta.png",
+        img:"img/ford-fiesta-azul.jpg",
         precio:300000,
     },
     {
@@ -739,7 +739,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/ford-fiesta-gris.jpg",
+        img:"img/ford-fiesta-blanco.jpg",
         precio:300000,
     },
     {
@@ -754,7 +754,7 @@ const dbVehiculos = [
         aireAcondicionado:"si",
         gps:"si",
         airbag:"si",
-        img:"img/ford-fiesta-gris.jpg",
+        img:"img/ford-fiesta-negro.jpg",
         precio:300000,
     }
 ];
@@ -826,8 +826,21 @@ function guardar(){
 
 
 
+    const contenido = document.getElementById("contenido");
 
+window.addEventListener("load", () => {
+  const vehiculosLink = document.getElementById("vehiculosPg1.html");
 
+  vehiculosLink.addEventListener("click", (event) => {
+    event.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+
+    contenido.innerHTML = ""; // Limpiar el contenido actual
+
+    setTimeout(() => {
+      contenido.innerHTML = `<object data="vehiculospag1.html" type="text/html"></object>`;
+    }, 3000);
+  });
+});
 
     
 
