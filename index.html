@@ -48,31 +48,93 @@
 
 <section body>
 
-    <form id="productForm" class="card">
+    <form id="productForm" class="form">
       
 
 
-            <div class="card-box">
-                <label class="marca"> Marca vehiculo <input type="text" id="marca" maxlength="20"></label>
-                <label class="modelo"> Ingrese el modelo <input type="text" id="modelo"></label>
-                <label class="automovil"> Es un automovil ? <input type="text" id="automovil"></label>
-                <label class="camioneta"> Es una camioneta ? <input type="text" id="camioneta"></label>
-                <label class="color"> Ingrese el color<input type="text" id="color"></label>
-                <label class="cilindraje"> Ingrese el cilindraje <input type="text" id="cilindraje" min="1.0" max="10.0"></label>
-                <label class="aireAcondicionado"> Aire Acondicionado ? <input
-                type="text" id="aireAcondicionado"></label>
-                <label class="gps"> tiene gps ? <input type="text" id="gps"></label>
-                <label class="airbag"> tiene airbag ? <input type="text" id="airbag"></label>
-                <label class="precio"> cual es su precio ? <input type="number" id="precio"></label>
-                <label class="codigo"> codigo del producto<input type="text" id="codigo" minlength="8"></label>
+            <div class="form-box">
+
+                <label"> Marca del vehiculo</label>
+                <input type="text" id="marca" maxlength="10" placeholder="ford">
+                
+
+                <label"> Modelo del vehiculo </label>
+                <input type="text" id="modelo" maxlength="10" placeholder="mustang">
+
+                <label> Categoria </label>
+                <select name="categoria" id="categoria">
+                    <option value="automovil">Automovil</option>
+                    <option value="camioneta">Camioneta</option>
+                    <option value="campero">Campero</option>
+                    <option value="miniVan">MiniVan</option>
+                    <option value="motocicleta">Motocicleta</option>
+                </select>
+
+                
+                  <label> imagen </label>
+                  <select name="imagen" id="imagen">
+                    <option value="audi-a4">/img/audi-a4</option>
+                    <option value="chevrolet-onix">/img/chevrolet-onix</option>
+                    <option value="audi">/img/audi-a4</option>
+                    <option value="ford-fiesta">/img/ford-fiesta</option>
+                    <option value="ford-mustang">/img/ford-mustang</option>
+                    <option value="mazda3">/img/mazda3</option>
+                    <option value="renault-duster">/img/renault-duster</option>
+                    <option value="renault-kwid">/img/renault-kwid</option>
+                    <option value="toyota-hilux">/img/toyota-hilux</option>
+                    <option value="toyota-prado">/img/toyota-prado</option>
+                    <option value="toyota-yaris">/img/toyota-yaris</option>
+                  </select>
+
+                  <br>
+
+                <label"> Color </label>
+                <input type="text" id="color"  placeholder="blanco">
+
+                <label> tiene aire Acondicionado </label>
+                  <select name="aireAcondicinado" id="aireAcondicinado">
+                      <option value="si">Si</option>
+                      <option value="no">No</option>
+                      
+                    </select>
+                  
+                  <label> tiene gps </label>
+                  <select name="gps" id="gps">
+                      <option value="si">Si</option>
+                      <option value="no">No</option>
+                      
+                    </select>
+
+                    
+                <label> tiene airbag </label>
+                <select name="airbag" id="airbag">
+                    <option value="si">Si</option>
+                    <option value="no">No</option>
+                    
+                  </select>
+               
             
-                <h1> Subir Foto </h1>
-                <input type="file" id="foto">
-                <button onclick="subirFoto()"> Subir foto </button>
-                <button onclick="guardar()"> !guardar! </button>
+              
+              
+                <label class="precio"> cual es su precio ?</label> 
+                <input type="number" id="precio" placeholder="300000">
+
+                <br>
+
+                <label class="codigo"> codigo del producto</label>
+                <input type="text" id="codigo" minlength="8" placeholder="VEhiculo01">
+
+               
+
+            <div>
+                <button type="submit" class="btn"> guardar</button>
+                <button type="reset" class="btn2"> limpiar</button>
+                
+            </div>
+                
 
    
-        
+                                
 
             </div>
 
@@ -84,14 +146,10 @@
             
 
 </section>
-<section cajaLogin>
-
- 
-</section>
 
 
 
-    <script src="dbVehiculos.js"></script>
+    <script src="formulario.js"></script>
    
 
     
