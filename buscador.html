@@ -51,22 +51,53 @@
 
 
         <div class="caja">
-            
-            <label class="nombre"> cual es tu nombre <input type="text" id="nombre"></label>
-            <label class="apellido"> cual es tu apellido <input type="text" id="apellido"></label>
-            <label class="telefono"> numero de telefono <input type="int" id="telefono"></label>
-            <label class="email"> email <input type="text" id="email"></label>
-            <label class="ciudad"> Ingrese su ciudad <input type="text" id="ciudad"></label>
-           
-           
-           
-           
-            <button onclick="concactar()"> !contactar! </button>
+            <section class="filtros">
+                <h2>Filtros</h2>
+                <div class="opciones">
+                  <label for="marca">Marca:</label>
+                  <select id="marca">
+                    <option value="">Todas las marcas</option>
+                    <option value="ford">ford</option>
+                    <option value="mazda">mazda</option>
+                    <option value="audi">audi</option>
+                    <option value="toyota">toyota</option>
+                    <option value="renault">renault</option>
+                    <option value="chevrolet">chevrolet</option>
+                    
+
+                  </select>
+
+                  <label for="color">Color:</label>
+                  <select id="color">
+                    <option value="">Todos los colores</option>
+                    <option value="blanco">blanco</option>
+                    <option value="gris">gris</option>
+                    <option value="azul">azul</option>
+                    <option value="negro">negro</option>
+                    <option value="rojo">rojo</option>
+
+                  </select>
 
 
+                    <label for="airbag">airbag:</label>
+                    <select id="airbag">
+                      <option value="">Todos los modelos</option>
+                      <option value="si">si</option>
+                      <option value="no">no</option>
+                    
+                   
+                   
+                  </select>
 
+                  <label for="precio">Precio:</label>
+                  <input type="range" id="precio" min="0" max="500000" step="1000" value="0">
 
-   
+                  
+                </select>
+                <button id="filtrar">Filtrar</button>
+                <button id="limpiar">Limpiar filtros</button>
+                </div>
+              </section>
 
     
        
@@ -76,6 +107,12 @@
           
 
 </section>
+<section id="resultados"></section>
+
+
+
+
+
 
 
 <footer>

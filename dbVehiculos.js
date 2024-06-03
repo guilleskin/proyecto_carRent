@@ -760,5 +760,65 @@ const dbVehiculos = [
 ];
 
 
+// Filtros
+let filtros = {
+    marca: "",
+    color: "",
+    airbag: "",
+    precio: 0
+};
+
+// Actualizar filtros
+const actualizarFiltros = () => {
+    filtros.marca = document.getElementById("marca").value;
+    filtros.color = document.getElementById("color").value;
+    filtros.airbag = document.getElementById("airbag").value;
+    filtros.precio = document.getElementById("precio").value;
+};
+
+// Filtrar productos
+const filtrarProductos = () => {
+    actualizarFiltros();
+    const productosFiltrados = dbVehiculos.filter((dbVehiculos) => {
+      return (
+        (filtros.marca === "" || dbVehiculos.marca.includes(filtros.marca)) &&
+        (filtros.color === "" || dbVehiculos.color.includes(filtros.color)) &&
+        (filtros.airbag === "" || dbVehiculos.airbag.includes(filtros.airbag)) &&
+        (filtros.precio === 0 || dbVehiculos.precio >= filtros.precio)
+      );
+    });
+
+    const resultados = document.getElementById("resultados");
+    resultados.innerHTML = "";
+    productosFiltrados.forEach((dbVehiculos) => {
+      const div = document.createElement("div");
+      div.className = "card";
+      div.innerHTML = `
+        <img src="${dbVehiculos.img}" alt="${dbVehiculos.marca} ${dbVehiculos.modelo}">
+        <h3>${dbVehiculos.marca} ${dbVehiculos.modelo}</h3>
+        <p>Precio: $${dbVehiculos.precio}</p>
+      `;
+      resultados.appendChild(div);
+    });
+};
+
+// Llama a la función filtrarProductos cuando se haga clic en el botón de filtrar
+document.getElementById("filtrar").addEventListener("click", filtrarProductos);
+
+// Limpia los filtros
+const limpiarFiltros = () => {
+    filtros.marca = "";
+    filtros.color = "";
+    filtros.airbag = "";
+    filtros.precio = 0;
+    document.getElementById("marca").value = "";
+    document.getElementById("color").value = "";
+    document.getElementById("airbag").value = "";
+    document.getElementById("precio").value = "";
+};
+
+// Llama a la función limpiarFiltros cuando se haga clic en el botón de limpiar
+document.getElementById("limpiar").addEventListener("click", limpiarFiltros);
+
 
 
